@@ -10,7 +10,7 @@ class SiteLogin:
         self.password_field = page.get_by_role("textbox", name="Password")
         self.login = page.get_by_role("button", name="LOG IN")
 
-    def loadPage(self):
+    def load_page(self):
         self.page.goto("https://www.theautomationchallenge.com/")
         self.login_button.click()
         self.login_option.click()

@@ -12,6 +12,6 @@ def page():
 
         # Login before test
         login_page = SiteLogin(page)
-        login_page.loadPage()
+        login_page.load_page()
         yield page
         browser.close()
