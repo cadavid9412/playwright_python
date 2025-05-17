@@ -25,5 +25,5 @@ playwright install
 
 3. **Run tests**
 ```bash
-pytest .\tests\read_and_input_data_from_excel.py
+pytest .\tests\test_read_and_input_data_from_excel.py
 ```
